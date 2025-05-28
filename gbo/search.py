@@ -117,7 +117,7 @@ def find_best_bifurcation(
                 trial_tissue.voronoi_partition(trial_tree)  
 
                 # --- update demand: split the old tip’s flow between the two ------
-                demand = terminal_demand(trial_tree, tissue)
+                demand = terminal_demand(trial_tree, trial_tissue)
                 demand[new_tip_id] = q_min            # <── add this line
 
                 # --- evaluate the loss for the trial tree -------------------------
