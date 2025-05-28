@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+gbo/__init__.py
+gbo/core.py
+gbo/io.py
+gbo.egg-info/PKG-INFO
+gbo.egg-info/SOURCES.txt
+gbo.egg-info/dependency_links.txt
+gbo.egg-info/top_level.txt
+tests/test01.py

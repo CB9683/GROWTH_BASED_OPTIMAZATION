@@ -1,0 +1,10 @@
+{
+  "mu": 0.0036,
+  "alpha": 0.05,
+  "q_min": 0.2,
+  "r_min": 0.2,
+  "q_per_terminal": 30.0,
+  "l_min": 10.0,
+  "candidate_k": 20,
+  "checkpoint_interval": 1
+}
